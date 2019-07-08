@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SampleReducer should handle all defined error types: rejected types GET_SAMPLE_DATA 1`] = `
+Object {
+  "result": Object {
+    "data": Object {
+      "usage": Array [],
+    },
+    "error": true,
+    "errorMessage": "ERROR",
+    "errorStatus": 0,
+    "fulfilled": false,
+    "pending": false,
+  },
+  "type": "GET_SAMPLE_DATA_REJECTED",
+}
+`;
+
+exports[`SampleReducer should handle all defined fulfilled types: fulfilled types GET_SAMPLE_DATA 1`] = `
+Object {
+  "result": Object {
+    "data": Object {
+      "usage": Array [],
+    },
+    "error": false,
+    "errorMessage": null,
+    "errorStatus": null,
+    "fulfilled": true,
+    "pending": false,
+  },
+  "type": "GET_SAMPLE_DATA_FULFILLED",
+}
+`;
+
+exports[`SampleReducer should handle all defined pending types: pending types GET_SAMPLE_DATA 1`] = `
+Object {
+  "result": Object {
+    "data": Object {
+      "usage": Array [],
+    },
+    "error": false,
+    "errorMessage": null,
+    "errorStatus": null,
+    "fulfilled": false,
+    "pending": true,
+  },
+  "type": "GET_SAMPLE_DATA_PENDING",
+}
+`;

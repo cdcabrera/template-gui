@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Router Component should render a basic component: basic 1`] = `
+<div
+  className="app-content"
+>
+  <Switch>
+    <Route
+      component={[Function]}
+      key="/sample"
+      path="/sample"
+    />
+    <Redirect
+      from="/"
+      to="/sample"
+    />
+  </Switch>
+</div>
+`;

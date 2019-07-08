@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SampleView Component should render a non-connected component: non-connected 1`] = `
+<Fragment>
+  <PageSection
+    className=""
+    noPadding={false}
+    noPaddingMobile={false}
+    variant="default"
+  >
+    <h1>
+      Sample view
+    </h1>
+    <Connect(SampleCard) />
+  </PageSection>
+</Fragment>
+`;

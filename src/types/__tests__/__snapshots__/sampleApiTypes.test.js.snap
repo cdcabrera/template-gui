@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SampleApiTypes Should have specific API properties: all exported api types 1`] = `
+Object {
+  "SAMPLE_API_RESPONSE_DATA": "data",
+  "SAMPLE_API_RESPONSE_DATA_DATE": "date",
+  "SAMPLE_API_RESPONSE_DATA_IPSUM": "ipsum",
+  "SAMPLE_API_RESPONSE_DATA_LOREM": "lorem",
+  "default": Object {
+    "SAMPLE_API_RESPONSE_DATA": "data",
+    "SAMPLE_API_RESPONSE_DATA_DATE": "date",
+    "SAMPLE_API_RESPONSE_DATA_IPSUM": "ipsum",
+    "SAMPLE_API_RESPONSE_DATA_LOREM": "lorem",
+  },
+  "sampleApiTypes": Object {
+    "SAMPLE_API_RESPONSE_DATA": "data",
+    "SAMPLE_API_RESPONSE_DATA_DATE": "date",
+    "SAMPLE_API_RESPONSE_DATA_IPSUM": "ipsum",
+    "SAMPLE_API_RESPONSE_DATA_LOREM": "lorem",
+  },
+}
+`;
+
+exports[`SampleApiTypes Should have specific API properties: specific types 1`] = `
+Object {
+  "SAMPLE_API_RESPONSE_DATA": "data",
+  "SAMPLE_API_RESPONSE_DATA_DATE": "date",
+  "SAMPLE_API_RESPONSE_DATA_IPSUM": "ipsum",
+  "SAMPLE_API_RESPONSE_DATA_LOREM": "lorem",
+}
+`;

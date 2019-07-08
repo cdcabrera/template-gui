@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SampleCard Component should render a non-connected component: non-connected 1`] = `
+<SampleCard
+  data={
+    Object {
+      "usage": Array [],
+    }
+  }
+  error={false}
+  fulfilled={false}
+  getSampleData={[Function]}
+  pending={false}
+>
+  <Card>
+    <article
+      className="pf-c-card"
+    >
+      <CardHead>
+        <div
+          className="pf-c-card__head"
+        >
+          <h5>
+            Sample
+          </h5>
+        </div>
+      </CardHead>
+      <CardBody>
+        <div
+          className="pf-c-card__body"
+        >
+          Data ipsum... 
+           
+          0
+        </div>
+      </CardBody>
+    </article>
+  </Card>
+</SampleCard>
+`;

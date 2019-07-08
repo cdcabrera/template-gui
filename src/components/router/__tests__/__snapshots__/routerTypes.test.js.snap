@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RouterTypes should return specific properties: baseName 1`] = `"/"`;
+
+exports[`RouterTypes should return specific properties: routes 1`] = `
+Array [
+  Object {
+    "component": [Function],
+    "id": "sample",
+    "redirect": true,
+    "title": "Sample View",
+    "to": "/sample",
+  },
+]
+`;

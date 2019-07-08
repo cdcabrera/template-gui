@@ -1,0 +1,8 @@
+// Framework
+@import '~@patternfly/patternfly/sass-utilities/all';
+
+// App
+.app {
+  @import 'app';
+  @import 'common';
+}

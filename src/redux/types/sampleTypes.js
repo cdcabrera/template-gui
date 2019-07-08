@@ -1,0 +1,3 @@
+const GET_SAMPLE_DATA = 'GET_SAMPLE_DATA';
+
+export { GET_SAMPLE_DATA as default, GET_SAMPLE_DATA };
